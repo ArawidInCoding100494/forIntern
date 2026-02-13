@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base{
+   table {
+    @apply min-w-full border-collapse capitalize ;
+  }
+
+  caption{@apply
+ border font-bold text-2xl border-b-0
+}
+
+  th {
+    @apply  font-bold p-3 text-left border capitalize;
+  }
+
+  td {
+    @apply p-2 border  capitalize;
+  }
+
+  tr:hover {
+    @apply cursor-pointer;
+  }
+}
