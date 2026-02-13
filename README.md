@@ -6,8 +6,6 @@ Click on a user row to edit via modal.
 
 ## Features
 - Search users by name, email, or age
-- Sort by name, email, or age
-- Filter users (active / age > 30)
 - Modal for editing user details
 - Optional: Show only user names
 - Responsive and user-friendly UI
